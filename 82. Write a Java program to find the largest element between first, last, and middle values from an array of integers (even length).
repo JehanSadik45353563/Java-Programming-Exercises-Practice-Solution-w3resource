@@ -1,0 +1,21 @@
+import java.util.Arrays;
+
+public class codeforces {
+    public static void main(String[] args){
+        int [] array = {20, 30, 40, 50, 67};
+        System.out.println("Original Array: "+Arrays.toString(array));
+        int max= array[0];
+        if(max<=array[1])
+            max = array[1];
+        if(max<=array[2])
+            max = array[2];
+        if(max<=array[3])
+            max = array[3];
+        if(max<=array[4])
+            max = array[4];
+        System.out.println("Largest element between first, last, and middle values:"+max);
+
+
+
+    }
+}
