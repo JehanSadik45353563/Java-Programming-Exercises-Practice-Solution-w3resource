@@ -1,0 +1,17 @@
+import java.util.Arrays;
+
+public class codeforces {
+    public static void main(String[] args){
+        int [] array = {20, 30, 40};
+        
+        System.out.println("Original Array:"+Arrays.toString(array));
+        int x=array[0];
+        array[0]=array[array.length-1];
+        array[2]=x;
+        int [] array_new={array[0],array[1],array[2]};
+
+        System.out.println(Arrays.toString(array_new));
+
+
+    }
+}
